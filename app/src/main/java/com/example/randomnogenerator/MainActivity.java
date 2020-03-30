@@ -21,7 +21,6 @@ public class MainActivity extends AppCompatActivity {
     EditText editText;
     Button button;
     View view;
-    int count=0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,14 +48,11 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        count+=1;
-        if (count%2!=0){
-        if (item.getItemId()==R.id.back){
-            view.setBackgroundColor(getResources().getColor(R.color.red));
-        }}
-        else{
-            view.setBackgroundColor(Color.WHITE);
+        if(item.getItemId()==R.id.back)
+        {
+            view.setBackgroundResource(R.drawable.yo);
         }
+
         return super.onOptionsItemSelected(item);
     }
 }

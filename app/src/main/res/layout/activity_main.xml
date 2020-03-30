@@ -15,7 +15,7 @@
         android:id="@+id/txt"
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
-        android:textColor="@android:color/holo_blue_dark"
+        android:textColor="@android:color/holo_red_dark"
         android:layout_weight="1"
         android:padding="22dp"/>
 

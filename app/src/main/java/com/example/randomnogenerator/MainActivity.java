@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         if(item.getItemId()==R.id.back)
         {
-            view.setBackgroundResource(R.drawable.yo);
+            view.setBackgroundResource(R.drawable.backg);
         }
 
         return super.onOptionsItemSelected(item);
